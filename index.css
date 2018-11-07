@@ -10,7 +10,23 @@ body {
 	color: #50524F;
 }
 
+.movie-rel-date {
+	background-color: grey;
+	color: #ffffff
+}
+
 .results {
 	margin-top: 20px;
 }
 
+.movies-container{
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: space-between; */
+}
+
+.card {
+	margin: 10px;
+}
